@@ -19,8 +19,10 @@ Thank you to the Hacker News community for giving me a lot of initial feedback f
 	- Changed color palette (Thanks kornakiewicz@HN)
 	- Fixed bug involving red ball escaping the field (Thanks kaoD@HN and various others who pointed this out)
 	- Added WebStorage high scores
+
 [09/04/14] 1.0.0.1
 	- Added multipliers
 	- Score scaling adjustments
+
 [09/04/14] 1.0.0.0
 	- Initial Game
