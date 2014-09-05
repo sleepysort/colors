@@ -13,7 +13,10 @@ Any feedback/criticism is welcome!
 Thank you to the Hacker News community for giving me a lot of initial feedback for the game; it was extremely helpful and I have taken many of your suggestions into consideration!
 
 #Version History
-[09/05/14] 1.0.0.1
+[09/05/14] 1.3
+- The long awaited mobile support (a whole two days!)
+
+[09/05/14] 1.2
 - Adjusted speed scaling (60 to 110 for largest ball, 600 to 550 for smallest ball)
 - Changed spawn angle to prevent "crossing" (Thanks symmetricsaurus@HN)
 - Changed color palette (Thanks kornakiewicz@HN)
@@ -21,9 +24,9 @@ Thank you to the Hacker News community for giving me a lot of initial feedback f
 - Can now hold down mouse button (Thanks Jeremy)
 - Added WebStorage high scores
 
-[09/04/14] 1.0.0.1
+[09/04/14] 1.1
 - Added multipliers
 - Score scaling adjustments
 
-[09/04/14] 1.0.0.0
+[09/04/14] 1.0
 - Initial Game
