@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1409962235
+#1409970697
 index.html
 c2runtime.js
 jquery-2.0.0.min.js
@@ -15,6 +15,8 @@ images/overlay-sheet0.png
 images/android_movestick-sheet0.png
 images/android_aimstick-sheet0.png
 images/android_moveanchor-sheet0.png
+images/movefield-sheet0.png
+images/aimfield-sheet0.png
 icon-16.png
 icon-32.png
 icon-114.png
