@@ -26503,13 +26503,24 @@ false,false,1172300243871421,false
 			[
 			[
 				35,
-				cr.plugins_.Facebook.prototype.cnds.OnReady,
+				cr.plugins_.Facebook.prototype.cnds.IsReady,
 				null,
-				1,
+				0,
 				false,
 				false,
 				false,
-				9736924080744579,
+				9394760151287059,
+				false
+			]
+,			[
+				-1,
+				cr.system_object.prototype.cnds.TriggerOnce,
+				null,
+				0,
+				false,
+				false,
+				false,
+				5853507489834158,
 				false
 			]
 			],
@@ -26530,20 +26541,44 @@ false,false,1172300243871421,false
 				]
 				]
 			]
-,			[
-				35,
-				cr.plugins_.Facebook.prototype.acts.LogIn,
+			]
+			,[
+			[
+				0,
 				null,
-				8901917943027723,
-				false
-				,[
+				false,
+				null,
+				2826343611775515,
 				[
-					3,
-					0
+				[
+					35,
+					cr.plugins_.Facebook.prototype.cnds.IsLoggedIn,
+					null,
+					0,
+					false,
+					true,
+					false,
+					1043331653944695,
+					false
 				]
-,				[
-					3,
-					1
+				],
+				[
+				[
+					35,
+					cr.plugins_.Facebook.prototype.acts.LogIn,
+					null,
+					8901917943027723,
+					false
+					,[
+					[
+						3,
+						0
+					]
+,					[
+						3,
+						1
+					]
+					]
 				]
 				]
 			]
