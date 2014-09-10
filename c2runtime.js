@@ -20302,11 +20302,16 @@ cr.getProjectModel = function() { return [
 		cr.plugins_.Text,
 		false,
 		[],
-		0,
+		1,
 		0,
 		null,
 		null,
 		[
+		[
+			"Timer",
+			cr.behaviors.Timer,
+			6607032954290132
+		]
 		],
 		false,
 		false,
@@ -21419,6 +21424,26 @@ cr.getProjectModel = function() { return [
 					0
 				]
 			]
+,			[
+				[62, 406, 0, 159, 35, 0, 0, 1, 0, 0, 0, 0, []],
+				36,
+				59,
+				[
+				],
+				[
+				],
+				[
+					"Leaderboard",
+					0,
+					"18pt Century Gothic",
+					"rgb(0,0,0)",
+					0,
+					0,
+					0,
+					0,
+					0
+				]
+			]
 			],
 			[			]
 		]
@@ -21649,6 +21674,8 @@ cr.getProjectModel = function() { return [
 				[
 				],
 				[
+				[
+				]
 				],
 				[
 					"0",
@@ -21656,6 +21683,26 @@ cr.getProjectModel = function() { return [
 					"8pt Century Gothic",
 					"rgb(0,0,0)",
 					2,
+					0,
+					0,
+					0,
+					0
+				]
+			]
+,			[
+				[286, 77, 0, 286, 19, 0, 0, 1, 0, 0, 0, 0, []],
+				12,
+				60,
+				[
+				],
+				[
+				],
+				[
+					"(Pop-ups must be enabled to submit scores)",
+					0,
+					"10pt Century Gothic",
+					"rgb(0,0,0)",
+					0,
 					0,
 					0,
 					0,
@@ -24962,6 +25009,186 @@ false,false,1172300243871421,false
 				]
 				]
 			]
+,			[
+				0,
+				null,
+				false,
+				null,
+				360515399292358,
+				[
+				[
+					24,
+					cr.plugins_.Touch.prototype.cnds.OnTouchObject,
+					null,
+					1,
+					false,
+					false,
+					false,
+					6022861030989056,
+					false
+					,[
+					[
+						4,
+						36
+					]
+					]
+				]
+				],
+				[
+				[
+					23,
+					cr.plugins_.Mouse.prototype.acts.SetCursor,
+					null,
+					3285591885996988,
+					false
+					,[
+					[
+						3,
+						0
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetVar,
+					null,
+					54308540799946,
+					false
+					,[
+					[
+						11,
+						"state"
+					]
+,					[
+						7,
+						[
+							0,
+							1
+						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetVar,
+					null,
+					6434681936906,
+					false
+					,[
+					[
+						11,
+						"score"
+					]
+,					[
+						7,
+						[
+							0,
+							0
+						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetVar,
+					null,
+					5571207959021797,
+					false
+					,[
+					[
+						11,
+						"combo"
+					]
+,					[
+						7,
+						[
+							0,
+							1
+						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetVar,
+					null,
+					2033232420649307,
+					false
+					,[
+					[
+						11,
+						"lastPoppedSize"
+					]
+,					[
+						7,
+						[
+							0,
+							0
+						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetLayerOpacity,
+					null,
+					5541916215720015,
+					false
+					,[
+					[
+						5,
+						[
+							0,
+							6
+						]
+					]
+,					[
+						0,
+						[
+							0,
+							0
+						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetLayerVisible,
+					null,
+					6469185017734149,
+					false
+					,[
+					[
+						5,
+						[
+							0,
+							4
+						]
+					]
+,					[
+						3,
+						1
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.GoToLayoutByName,
+					null,
+					6211462495481316,
+					false
+					,[
+					[
+						1,
+						[
+							2,
+							"leaderboard"
+						]
+					]
+					]
+				]
+				]
+			]
 			]
 		]
 ,		[
@@ -26248,26 +26475,6 @@ false,false,1172300243871421,false
 				]
 ,				[
 					-1,
-					cr.system_object.prototype.acts.SetLayerVisible,
-					null,
-					7812408266402211,
-					false
-					,[
-					[
-						5,
-						[
-							0,
-							4
-						]
-					]
-,					[
-						3,
-						1
-					]
-					]
-				]
-,				[
-					-1,
 					cr.system_object.prototype.acts.SetLayerOpacity,
 					null,
 					6732581698268734,
@@ -26286,6 +26493,26 @@ false,false,1172300243871421,false
 							0,
 							0
 						]
+					]
+					]
+				]
+,				[
+					-1,
+					cr.system_object.prototype.acts.SetLayerVisible,
+					null,
+					7812408266402211,
+					false
+					,[
+					[
+						5,
+						[
+							0,
+							4
+						]
+					]
+,					[
+						3,
+						1
 					]
 					]
 				]
@@ -26992,7 +27219,7 @@ false,false,1172300243871421,false
 					40,
 					cr.plugins_.Text.prototype.acts.SetText,
 					null,
-					324991596032354,
+					5289097795940396,
 					false
 					,[
 					[
@@ -27165,7 +27392,7 @@ false,false,1172300243871421,false
 	false,
 	1,
 	0,
-	59,
+	61,
 	false,
 	true,
 	1,
